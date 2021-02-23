@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".SecondActivity">
+
+    <com.google.android.exoplayer2.ui.PlayerView
+        android:id="@+id/pv"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"/>
+
+<!--    컨트롤러 모양을 커스텀하기 위한 뷰: 이제는 필요 없음, 걍[exo_plater_control_view.xml]만 있으면 됨 -->
+<!--    <com.google.android.exoplayer2.ui.PlayerControlView-->
+<!--        android:id="@+id/pcv"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="300dp"/>-->
+<!--    layout폴더안에 [exo_plater_control_view.xml] 라는 이름의 문서가 있으면 자동으로 그 layout이 컨트롤러 뷰가 됨-->
+
+
+
+</RelativeLayout>
